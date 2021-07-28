@@ -1,0 +1,13 @@
+<h1>Angular Router App</h1>
+<nav>
+  <ul>
+    <li><a routerLink="/list" routerLinkActive="active">List Product Page</a></li>
+    <br/>
+    <br/>
+    <button type="button" (click)="onAdd()">Add product</button>
+  </ul>
+</nav>
+<button class="btn btn-primary" (click)="onLogout()">
+  Logout
+</button>
+<router-outlet></router-outlet>
